@@ -2,10 +2,20 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  width: 100vw;
+  height: 100vh; 
+  position: inherit;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #ffffff;
+  /* background-color: #242424; */
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  align-items: flex-start;
+  height: fit-content;
+  /* width:fit-content; */
+  overflow: auto;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,6 +38,12 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  width: 100vw;
+
+  /* justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  text-align: flex-start; */
 }
 
 h1 {
@@ -58,6 +74,8 @@ button:focus-visible {
   :root {
     color: #213547;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
   }
   a:hover {
     color: #747bff;
