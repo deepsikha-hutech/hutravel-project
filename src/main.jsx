@@ -6,6 +6,11 @@ import Error from "./Components/Error";
 import "./index.css";
 import MasterLayout from "./Components/Dashboard/MasterLayout";
 import Dashboard from "./Components/Dashboard/Dashboard";
+// import Trip from "./Components/Dashboard/Trip";
+import Expenses from "./Components/Dashboard/Expenses";
+import Reports from "./Components/Dashboard/Reports";
+import Approval from "./Components/Dashboard/Approval";
+import AllPendingTrip from "./Components/Dashboard/AllPendingTrip";
 
 // import App from './App.jsx'
 
@@ -27,6 +32,26 @@ const router = createBrowserRouter([
       {
         path: "dashboard",
         element: <Dashboard />,
+        errorElement: <Error />,
+      },
+      {
+        path: "trip",
+        element: <AllPendingTrip />,
+        errorElement: <Error />,
+      },
+      {
+        path: "expenses",
+        element: <Expenses />,
+        errorElement: <Error />,
+      },
+      {
+        path: "reports",
+        element: <Reports />,
+        errorElement: <Error />,
+      },
+      {
+        path: "approvals",
+        element: <Approval />,
         errorElement: <Error />,
       },
     ],

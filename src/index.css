@@ -5,9 +5,9 @@
   width: 100vw;
   height: 100vh; 
   position: inherit;
-
+  display :flex;
   color-scheme: light dark;
-  color: #ffffff;
+  color: #e0d5d5;
   /* background-color: #242424; */
   display: flex;
   flex-direction: column;
