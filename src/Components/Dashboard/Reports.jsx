@@ -1,21 +1,20 @@
 import React from "react";
 
-function Dashboard() {
+function Reports() {
   return (
     <div
-      class="dash-main"
+      class="report-main"
       style={{
         marginLeft: "40px",
         height: "100%",
         width: "100%",
         display: "flex",
         flexDirection: "row",
-        // backgroundColor: "#FFFFFF",
       }}
     >
-      <h1>This is dashboard tab </h1>
+      <h1>This is Report tab </h1>
     </div>
   );
 }
 
-export default Dashboard;
+export default Reports;
